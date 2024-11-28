@@ -1,5 +1,12 @@
-import random
-Random_Number = int(random.randrange(1,101))
+"""
+This is just a normal Number Guessing Game.
+Game Plan:
+In this game, the computer generate a random number and I have to find the that number by using finite number of moves
+Date: 28 November,2024
+Developer Name : Md Nasim Hossen
+"""
+import random #import the random module
+Random_Number = int(random.randrange(1,101)) # Generate a random number
 Name = input("Please,Enter Your Name: ")
 Number_of_Moves = 1
 print("Please, Enter a random Number: ")
